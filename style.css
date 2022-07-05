@@ -1,0 +1,32 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+.orange{
+    color: orange;
+}
+section{
+    display: flex;
+}
+.half{
+    width: 50%;
+    padding-left: 5%;
+}
+.half img{
+    width: 80%;
+}
+.vaithe{
+    background-image: linear-gradient(orange,tomato);
+    text-decoration: none;
+    color: white;
+    padding: 10px 40px;
+    font-weight: 700;
+    border-radius: 5%;
+}
+.taw{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}

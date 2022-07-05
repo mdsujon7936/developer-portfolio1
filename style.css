@@ -3,12 +3,16 @@ body{
     margin: 0;
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
+}
+h2
+{
+    font-size: 30px;
 }
 .orange{
     color: orange;
 }
-section{
+.flexible-containar{
     display: flex;
     margin-bottom: 100px;
 }
@@ -25,7 +29,7 @@ section{
     color: white;
     padding: 10px 40px;
     font-weight: 700;
-    border-radius: 5%;
+    border-radius: 5px;
 }
 .taw{
     background-image: url(images/top-banner.png);
@@ -36,4 +40,26 @@ section{
     background-repeat: no-repeat;
     background-position: right;
     
+}
+.Experience-item{
+    width: 40%;
+    box-shadow:3px 3px 5px 6px #ccc;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 2%;
+    border-radius: 10px;
+}
+.Experiences-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack-developer{
+    border-left: 7px solid tomato;
+}
+#Baby-Web-Developer{
+    border-left: 7px solid blue;
+}
+.amader p{
+    text-align: center;
 }
